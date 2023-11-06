@@ -1,0 +1,18 @@
+.weather {
+  border: solid 1px black;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.searching-tool {
+  margin-bottom: 50px;
+}
+.details {
+  list-style-type: none;
+}
