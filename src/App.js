@@ -10,6 +10,27 @@ function App() {
         "
         />
       </div>
+      <div>
+        <span className="source">
+          {" "}
+          <span className="footage">Coded by: </span>
+          <span className="name"> Rezvan Sameti, </span>
+          <span className="footage">Open Sourced on: </span>
+          <a
+            className="myLink"
+            href="https://github.com/Sameti-R/nice-react-weather-app"
+          >
+            GitHub
+          </a>
+          <span className="footage">, Hosted on:</span>
+          <a
+            className="myLink"
+            href="https://stellar-melba-ba0280.netlify.app/"
+          >
+            Netlify
+          </a>
+        </span>
+      </div>
     </div>
   );
 }

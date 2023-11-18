@@ -17,7 +17,7 @@ export default function DailyForecastDay(props) {
     <div>
       <div>{day}</div>
       <div>
-        <img src={icon} />
+        <img className="fiveDaysImage" src={icon} />
       </div>
       <div>
         <span className="tempMin"> {Math.round(props.data.temp.min)}°</span>

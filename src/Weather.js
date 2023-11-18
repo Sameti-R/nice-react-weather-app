@@ -4,6 +4,7 @@ import axios from "axios";
 import FormattedDate from "./FormattedDate";
 import WeatherDetails from "./WeatherDetails";
 import DailyForecast from "./DailyForecast";
+import FormattedTime from "./FormattedTime";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -38,21 +39,23 @@ export default function Weather(props) {
   }
   if (weatherItems.ready) {
     return (
-      <div className="weather">
-        <form className="searching-tool" onSubmit={handleSubmit}>
+      <div className="mainPage">
+        <form className="myForm" onSubmit={handleSubmit}>
           <input
             type="search"
             placeholder="Enter a city"
-            className="search-bar"
+            className="searchEngine"
             onChange={updateCity}
           />{" "}
-          <input type="submit" className="btn btn-primary" value="Search" />
+          <input type="submit" className="  searchButton" value="Search" />
         </form>{" "}
         <WeatherDetails weatherItems={weatherItems} />
         <DailyForecast info={weatherItems.coordinates} />
-        <footer>
-          Last updated:
-          <FormattedDate date={weatherItems.date} />
+        <footer className="dayTime">
+          {" "}
+          <span className="text">Last updated: </span>
+          <FormattedDate date={weatherItems.date} />,{" "}
+          <FormattedTime time={weatherItems.date} />
         </footer>
       </div>
     );

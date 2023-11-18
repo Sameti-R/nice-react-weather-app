@@ -1,0 +1,31 @@
+.city {
+  color: aliceblue;
+  font-size: 32px;
+
+  font-weight: bold;
+}
+
+.degree {
+  color: aliceblue;
+  font-size: 32px;
+  font-weight: bold;
+}
+.symbol {
+  color: whitesmoke;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  top: -15px;
+}
+
+.weatherCondition {
+  color: aliceblue;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.details {
+  color: aliceblue;
+  font-weight: bold;
+}
