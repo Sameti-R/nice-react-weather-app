@@ -1,4 +1,5 @@
 import react from "react";
+import "./DayTime.css";
 export default function FormattedTime(props) {
   let hour = props.time.getHours();
   if (hour < 10) {
@@ -10,7 +11,7 @@ export default function FormattedTime(props) {
     minute = `0${minute}`;
   }
   return (
-    <span>
+    <span className="dayTime">
       {hour}:{minute}
     </span>
   );

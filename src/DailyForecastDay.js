@@ -1,15 +1,7 @@
 import react from "react";
 export default function DailyForecastDay(props) {
   let icon = `http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`;
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
+  let days = ["Sun.", "Mon.", "Tue.", "Wed.", "Thu.", "Fri.", "Sat."];
 
   let date = new Date(props.data.dt * 1000);
   let day = days[date.getDay()];

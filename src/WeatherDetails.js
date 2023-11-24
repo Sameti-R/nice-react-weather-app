@@ -3,7 +3,7 @@ import "./WeatherDetails.css";
 
 export default function WeatherDetails(props) {
   return (
-    <div>
+    <div className="weatherDetails">
       <div className="row">
         <div className="col-4">
           <h1 className="city">{props.weatherItems.city}</h1>

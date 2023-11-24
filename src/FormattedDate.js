@@ -1,5 +1,5 @@
 import react from "react";
-import FormattedTime from "./FormattedTime";
+import "./DayTime.css";
 export default function FormattedDate(props) {
   let days = [
     "Sunday",
@@ -12,5 +12,5 @@ export default function FormattedDate(props) {
   ];
   let day = days[props.date.getDay()];
 
-  return <span>{day}</span>;
+  return <span className="dayTime">{day}</span>;
 }

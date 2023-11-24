@@ -12,53 +12,7 @@
   border-radius: 10px;
   background: #3a78d4;
 }
-.myForm {
-  text-align: center;
-  margin-top: 50px;
-  font-size: large;
-  margin-bottom: 30px;
-}
-.searchEngine {
-  width: 30%;
-  height: 40px;
-  border: 2px solid black;
-  border-radius: 5px;
-}
-.searchButton {
-  text-align: center;
-  width: 10%;
-  height: 40px;
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: #ec6e4c;
-  color: aliceblue;
-}
 
-.tempMax {
-  color: #ec6e4c;
-  margin-left: 20px;
-}
-.tempMin {
-  color: blue;
-}
-.fiveDays {
-  font-weight: bold;
-  background: wheat;
-  border-radius: 10px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 5px;
-}
-.dayTime {
-  color: aliceblue;
-  font-size: 16px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  font-weight: bold;
-  text-align: left;
-}
 .name {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -75,7 +29,4 @@
 }
 .myLink {
   font-weight: bold;
-}
-.fiveDaysImage {
-  size: 54px;
 }
